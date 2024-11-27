@@ -1,0 +1,14 @@
+1 - import all the necessary dependencies.  
+2 - setup the backend at the appwrite. 
+3 - create the authentication for the whole application using the appwrite. 
+4 - create the config for whole Realtime database.
+5 - create the store and reducer (authSlice) for registration check user is login or logout.
+6 - control the app file for loading facility. loading is necessary for checking beacause data comming from the internet so it takes time. use the useeffect for autocheck at reload.
+7 - Use the <provider store={store} /> for running the code.
+8 - Create Input , Button , select using forwardRef 
+9 - Create the Login And Singup page , postCard  
+10- AuthLayout for checking the authentication of user , mechanism used to protect the pages routes 
+    this is simple protected container created using this check the container is authenticate or not 
+    on bases of this we controll the children
+11- Now we have to arrange the RTE fro editor. we need ref but here we are using the {Controller}
+
