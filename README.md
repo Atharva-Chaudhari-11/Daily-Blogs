@@ -5,6 +5,7 @@ Welcome to the GitHub repository for the Daily Blog App! This repository contain
 ## Introduction
 
 Daily Blog is a full-fledged blog application built with React.js that offers the following features:
+![main page](MainPage.png)
 
 ### User Management
 - Users can register for new accounts using a signup form with validation (powered by React Hook Form).
