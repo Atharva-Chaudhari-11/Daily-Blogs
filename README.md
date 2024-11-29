@@ -1,37 +1,32 @@
-# Mega Blog
-Welcome to the GitHub repository for the Mega Blog App! This repository contains the source code for a powerful blogging platform equipped with essential features like user authentication, post management, and content creation. It utilizes Appwrite as the backend service for managing the database and storage operations.
+# Daily Blog
 
-
+Welcome to the GitHub repository for the Daily Blog App! This repository contains the source code for a powerful blogging platform equipped with essential features like user authentication, post management, and content creation. It utilizes Appwrite as the backend service for managing the database and storage operations.
 
 ## Introduction
-Mega Blog is a full-fledged blog application built with React.js that offers the following features:
 
-- **User Management:**
-  - Users can register for new accounts using a signup form with validation (powered by React Hook Form).
-  
-  - Existing users can log in securely using Appwrite for authentication.
- 
+Daily Blog is a full-fledged blog application built with React.js that offers the following features:
 
-  - Users can log out seamlessly, clearing authentication tokens.
-- **Post Creation:**
-  - Authorized users can create new blog posts, crafting content with ease using a rich text editor (like TinyMCE).
- 
+### User Management
+- Users can register for new accounts using a signup form with validation (powered by React Hook Form).
+- Existing users can log in securely using Appwrite for authentication.
+- Users can log out seamlessly, clearing authentication tokens.
 
-  - Post data is stored securely in Appwrite's database.
-- **Post Listing:**
-  - A clear and organized list displays all published blog posts.
-  - Each post showcases the title, author, and a snippet of the content.
-  - Consider implementing pagination or sorting for extensive post management (optional).
-  
-- **Update Post:**
-  - Users can update their existing post if the same user that is Logged in and have their own post.
-  - User can also delete their own post.
+### Post Creation
+- Authorized users can create new blog posts, crafting content with ease using a rich text editor (like TinyMCE).
+- Post data is stored securely in Appwrite's database.
 
-  
+### Post Listing
+- A clear and organized list displays all published blog posts.
+- Each post showcases the title, author, and a snippet of the content.
+- Consider implementing pagination or sorting for extensive post management (optional).
 
-- **Route Management:**
-  - The application leverages react-router-dom for efficient routing between different sections.
-  - Specific routes handle authentication (login, logout), post creation, and post listing.
+### Update Post
+- Users can update their existing posts if they are logged in and own the post.
+- Users can also delete their own posts.
+
+### Route Management
+- The application leverages `react-router-dom` for efficient routing between different sections.
+- Specific routes handle authentication (login, logout), post creation, and post listing.
 
 ## Tech Stack
 
@@ -44,12 +39,15 @@ Mega Blog is a full-fledged blog application built with React.js that offers the
 
 ## Deployment & Repository
 
-- **Live Demo:**
-- **Repository:** https://github.com/Atharva-Chaudhari-11/Daily-Blogs.git
+- **Live Demo:** *(Add live demo link here)*
+- **Repository:** [Daily Blogs GitHub Repository](https://github.com/Atharva-Chaudhari-11/Daily-Blogs.git)
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/Atharva-Chaudhari-11/Daily-Blogs.git`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Atharva-Chaudhari-11/Daily-Blogs.git
+
 
 2. Navigate to the project directory: `cd mega-blog`
 
