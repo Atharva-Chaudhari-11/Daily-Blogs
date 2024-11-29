@@ -9,22 +9,27 @@ Daily Blog is a full-fledged blog application built with React.js that offers th
 
 ### User Management
 - Users can register for new accounts using a signup form with validation (powered by React Hook Form).
+ ![text](FirstPage.png)
 - Existing users can log in securely using Appwrite for authentication.
+ ![text](Login.png)
 - Users can log out seamlessly, clearing authentication tokens.
 
 ### Post Creation
 - Authorized users can create new blog posts, crafting content with ease using a rich text editor (like TinyMCE).
+![text](AddPost.png)
 - Post data is stored securely in Appwrite's database.
 
 ### Post Listing
 - A clear and organized list displays all published blog posts.
 - Each post showcases the title, author, and a snippet of the content.
 - Consider implementing pagination or sorting for extensive post management (optional).
+![text](MainPage.png)
 
 ### Update Post
 - Users can update their existing posts if they are logged in and own the post.
 - Users can also delete their own posts.
-
+ ![text](update.png)
+ ![text](backend.png)
 ### Route Management
 - The application leverages `react-router-dom` for efficient routing between different sections.
 - Specific routes handle authentication (login, logout), post creation, and post listing.
