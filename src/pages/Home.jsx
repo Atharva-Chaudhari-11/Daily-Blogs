@@ -1,16 +1,17 @@
 import React,{useState , useEffect} from 'react'
 import {PostCard , Container} from '../components'
-import services from '../appwrite/config'
+import appwriteService from '../appwrite/config'
 
 function Home() {
     const [posts , setPost] = useState([])
     useEffect(()=>{
-        services.getPosts().then((post)=>{
-            if(post){
-                setPost(post.documents)
+        appwriteService.getPosts().then((posts)=>{
+            if(posts){
+                setPost(posts.documents)
             }
         })
     },[])
+
     if(posts.length === 0 ){
         return (
         <div className="w-full py-8 mt-4 text-center">

@@ -1,4 +1,4 @@
-import conf from "../conf/conf";
+import conf from "../conf/conf.js";
 
 // why we are using the class understand from  3:29:00 TT
 import { Client, Account, ID } from "appwrite";

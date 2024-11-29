@@ -40,7 +40,7 @@ import AddPost from './pages/AddPost.jsx'
           element:(
             <AuthLayout authentication>
               {" "}
-              <AllPost/>
+              <AllPost />
             </AuthLayout>
           )
         },

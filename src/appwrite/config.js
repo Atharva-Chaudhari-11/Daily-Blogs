@@ -17,7 +17,7 @@ export class Services{
         this.databases = new Databases(this.client) 
     }
 
-    async createPost({title,slug,content,featuredImage,status,userId}){
+    async createPost({title, slug, content, featuredImage, status, userId}){
         try {
             return await this.databases.createDocument(
                 conf.appwriteDatabaseId,
@@ -89,7 +89,7 @@ export class Services{
             return await this.databases.listDocuments(
                 conf.appwriteDatabaseId,
                 conf.appwriteCollectionId,
-                queries
+                queries,
             )
         } catch (error) {
             console.log("appwrite-service :: getPosts:error " + error);
@@ -127,8 +127,8 @@ export class Services{
         }
     }
 
-    async getFilePreview(fileId){
-        return await this.bucket.getFilePreview(
+     getFilePreview(fileId){
+        return this.bucket.getFilePreview(
             conf.appwriteBucketId,
             fileId
         )

@@ -60,7 +60,7 @@ function Login() {
             
             {/* Now we actually create the form user email and password */}
             
-            <form onSubmit={handleSubmit(login)}>
+            <form onSubmit={handleSubmit(login)} className='mt-8'>
             <div className='space-y-5'>
                 {/* first input */}
                 <Input 

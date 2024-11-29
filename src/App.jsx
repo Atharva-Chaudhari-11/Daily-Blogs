@@ -28,12 +28,12 @@ function App() {
 
 
   return !loading ? (
-    <div className='bg-red-400 min-h-screen content-between flex flex-wrap'>
+    <div className='bg-green-200 min-h-screen content-between flex flex-wrap'>
       <div className='w-full block'>
         <Header/>
         <main>
           {/* <Outlet/> */}
-          TODO:  <Outlet />
+          BLOGS :  <Outlet />
         </main>
         <Footer/>
       </div>

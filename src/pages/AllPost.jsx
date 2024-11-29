@@ -1,15 +1,14 @@
 import React,{useEffect , useState} from 'react'
 import { Container , PostCard } from '../components'
-import services from '../appwrite/config'
+import appwriteService from '../appwrite/config'
 
 function AllPost() {
-    const [posts , setPost] = useState([])
-    useEffect(()=>{
-        services.getPosts([]).then((posts)=>{
-            if(posts){
-                setPost(posts.documents)
-            }
-        })
+    const [posts, setPosts] = useState([])
+    useEffect(() => {}, [])
+    appwriteService.getPosts([]).then((posts) => {
+        if (posts) {
+            setPosts(posts.documents)
+        }
     })
   return (
     <div className='w-full py-8'>
